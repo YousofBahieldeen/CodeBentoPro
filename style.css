@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: dimgrey;
+}
+.nav-bar{
+    background-color: whitesmoke;
+    height: 47px;
+}
+
+.Start-button{
+    background-color: whitesmoke;
+    margin-left: 75%;
+    margin-top: 11px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 49px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.Home-button{
+    background-color: whitesmoke;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 49px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.About-button{
+    background-color: whitesmoke;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 49px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.Contact-button{
+    border: none;
+    background-color: whitesmoke;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+
+
+.About-button:hover{
+    background-color: bisque;
+}
+
+.Contact-button:hover{
+    background-color: bisque;
+}
+
+.Home-button:hover{
+    background-color: bisque;
+}
+
+.Start-button:hover{
+    background-color: bisque;
+}
+
+.p-1{
+    text-align: center;
+    margin-top: 50px;
+    width: 222px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 10px 10px 0.23 black;
+    color: rgba(255, 255, 255, 0.964);
+}
+    
+.Buttons{
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 10px 26px;
+    font-size: 16px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #198754;
+    color: white;
+    margin-top: 8px;
+    margin-left: 39px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+

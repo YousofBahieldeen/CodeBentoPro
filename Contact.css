@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar{
+    background-color: whitesmoke;
+    height: 47px;
+}
+
+body{
+    background-color: dimgrey;
+}
+
+.Start-button{
+    background-color: whitesmoke;
+    margin-left: 75%;
+    margin-top: 11px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 49px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.Home-button{
+    background-color: whitesmoke;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 49px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.About-button{
+    background-color: whitesmoke;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 49px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.Contact-button{
+    border: none;
+    background-color: whitesmoke;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+
+
+.About-button:hover{
+    background-color: bisque;
+}
+
+.Contact-button:hover{
+    background-color: bisque;
+}
+
+.Home-button:hover{
+    background-color: bisque;
+}
+
+.Start-button:hover{
+    background-color: bisque;
+}
+
+.email{
+    margin-top: 125px;
+    display: block;
+    border: none;
+    background-color: rgb(105, 105, 105);
+    height: 36px;
+    width: auto;
+    cursor: pointer;
+    color: white;
+    transition: border 0.15s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.email:hover{
+    border: solid;
+    border-color: rgb(255, 0, 0);
+    border-width: 2px;
+}
+
+.YT{
+    border: none;
+    background-color: rgb(105, 105, 105);
+    height: 36px;
+    cursor: pointer;
+    color: white;
+    transition: border 0.15s;
+    display: block;
+    text-decoration: none;
+}
+
+.YT:hover{
+    border: solid;
+    border-color: rgb(0, 4, 255);
+    border-width: 2px;
+}
+
+.B{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.Tweet-Button{
+        background-color: rgb(105, 105, 105);
+        border: none;
+        cursor: pointer;
+        width: 73px;
+        height: 30px;
+        transition: border 0.15s;
+        color: white;
+}
+
+.Tweet-Button:hover{
+    border: solid;
+    border-color: rgb(234, 255, 0);
+}

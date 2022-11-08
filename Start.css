@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar{
+    background-color: whitesmoke;
+    height: 47px;
+}
+
+.Start-button{
+    background-color: whitesmoke;
+    margin-left: 75%;
+    margin-top: 11px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 49px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.Home-button{
+    background-color: whitesmoke;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 49px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.About-button{
+    background-color: whitesmoke;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 49px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+
+.Contact-button{
+    border: none;
+    background-color: whitesmoke;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.About-button:hover{
+    background-color: bisque;
+}
+
+.Contact-button:hover{
+    background-color: bisque;
+}
+
+.Home-button:hover{
+    background-color: bisque;
+}
+
+.Start-button:hover{
+    background-color: bisque;
+}
+
+
+
+.Video-1{
+    width: 300px;
+    display: bloc
+}
+.CS{
+    color: white;
+
+}
+body{
+    background-color: dimgrey;
+}
+
+.HC{
+    background-color: rgb(105, 105, 105);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-top: 8px;
+    transition: border 0.15s;
+    display: inline;
+}
+
+.HC:hover{
+    border: solid;
+    border-color: black;
+}
+
+.HCFC{
+    font-weight: bold;
+    padding-top: 3px;
+    font-size: 18px;
+}
+
+.T{
+    text-align: left;
+    padding-left: 12px;
+    font-size: 16px;
+    color: white;
+}
+
+.JS{
+    background-color: rgb(105, 105, 105);
+    border: none;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-top: 8px;
+    transition: border 0.15s;
+}
+
+.JSFC{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.JS:hover{
+    border: solid;
+    border-color: black;
+}
